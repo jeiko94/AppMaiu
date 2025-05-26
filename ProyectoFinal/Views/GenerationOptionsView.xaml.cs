@@ -25,16 +25,15 @@ public partial class GenerationOptionsView : ContentPage
 
         Estilos = new List<ArtStyle>()
         {
-            new ArtStyle() {Nombre = "Cartoon", ImagenUrl = "bosque.png"},
-            new ArtStyle() {Nombre = "Realistic", ImagenUrl = "bosque.png"},
-            new ArtStyle() {Nombre = "Anime", ImagenUrl = "ciudad.png"},
-            new ArtStyle() {Nombre = "Pixel Art", ImagenUrl = "ciudad.png"},
-            new ArtStyle() {Nombre = "Acuarela", ImagenUrl = "desierto.png"},
-            new ArtStyle() {Nombre = "Pop Art", ImagenUrl = "desierto.png"},
-            new ArtStyle() {Nombre = "Impresionista", ImagenUrl = "montain.png"},
-            new ArtStyle() {Nombre = "Surrealista", ImagenUrl = "montain.png"},
-            new ArtStyle() {Nombre = "Minimalista", ImagenUrl = "bosque.png"},
-            new ArtStyle() {Nombre = "Abstracto", ImagenUrl = "bosque.png"}
+            new ArtStyle() {Nombre = "Cartoon", ImagenUrl = "cartoon.png"},
+            new ArtStyle() {Nombre = "Surrealista", ImagenUrl = "surrealista.png"},
+            new ArtStyle() {Nombre = "Pop Art", ImagenUrl = "pop.png"},
+            new ArtStyle() {Nombre = "Impresionista", ImagenUrl = "impresionista.png"},
+            new ArtStyle() {Nombre = "Realistic", ImagenUrl = "realistic.png"},
+            new ArtStyle() {Nombre = "Anime", ImagenUrl = "anime.png"},
+            new ArtStyle() {Nombre = "Pixel Art", ImagenUrl = "pixel.png"},
+            new ArtStyle() {Nombre = "Acuarela", ImagenUrl = "acuarela.png"}
+            
         };
 
     }
