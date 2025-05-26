@@ -1,6 +1,7 @@
 ﻿using CommunityToolkit.Maui;
 using Microsoft.Extensions.Logging;
 using PanCardView;
+using SkiaSharp.Views.Maui.Controls.Hosting;
 
 namespace ProyectoFinal
 {
@@ -13,6 +14,7 @@ namespace ProyectoFinal
                 .UseMauiApp<App>()
                 //Se importa para usar las tarjetas
                 .UseCardsView()
+                .UseSkiaSharp()
                 .UseMauiCommunityToolkit()
                 .ConfigureFonts(fonts =>
                 {
