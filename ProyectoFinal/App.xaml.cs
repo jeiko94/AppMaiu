@@ -8,7 +8,8 @@ namespace ProyectoFinal
         {
             InitializeComponent();
 
-            MainPage = new DashboardView();
+            MainPage = new NavigationPage(new DashboardView());
+
         }
     }
 }

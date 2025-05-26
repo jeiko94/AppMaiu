@@ -135,6 +135,7 @@
                 StrokeShape="RoundRectangle 55,0,0,0"
                 WidthRequest="250">
             <Button BackgroundColor="#E8FF8E"
+                    Clicked="Button_Clicked"
                     FontSize="16"
                     Text="Crear Imagenes"
                     TextColor="#101216"/>
